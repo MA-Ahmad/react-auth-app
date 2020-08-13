@@ -1,13 +1,9 @@
 import React, { Component } from "react";
+import Registration from "./auth/Registration";
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   render() {
-    console.log("home");
-    return <div>Home</div>;
+    return <Registration />;
   }
 }
 
