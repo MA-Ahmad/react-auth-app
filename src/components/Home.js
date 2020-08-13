@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Registration from "./auth/Registration";
+import Login from "./auth/Login";
 
 class Home extends Component {
   constructor(props) {
@@ -18,6 +19,7 @@ class Home extends Component {
         <h2>Home</h2>
         <h1>Status: {this.props.loggedInStatus}</h1>
         <Registration handleSuccessfullAuth={this.handleSuccessfullAuth} />
+        <Login handleSuccessfullAuth={this.handleSuccessfullAuth} />
       </div>
     );
   }
