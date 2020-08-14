@@ -17,7 +17,7 @@ class Login extends Component {
     const { email, password } = this.state;
     axios
       .post(
-        "/sessions",
+        "https://rails-auth-proj.herokuapp.com/sessions",
         {
           user: {
             email: email,

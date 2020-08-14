@@ -18,7 +18,9 @@ class Home extends Component {
 
   handleLogoutClick = () => {
     axios
-      .delete("/logout", { withCredentials: true })
+      .delete("https://rails-auth-proj.herokuapp.com/logout", {
+        withCredentials: true
+      })
       .then(response => {
         this.props.handleLogout();
       })

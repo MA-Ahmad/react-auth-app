@@ -2,7 +2,6 @@
   "name": "react-auth-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
   "engines": {
     "npm": "6.9.0",
     "node": "12.5.0"

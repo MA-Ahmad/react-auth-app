@@ -18,7 +18,7 @@ class Registration extends Component {
     const { email, password, password_confirmation } = this.state;
     axios
       .post(
-        "/registrations",
+        "https://rails-auth-proj.herokuapp.com/registrations",
         {
           user: {
             email: email,
