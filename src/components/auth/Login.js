@@ -17,7 +17,7 @@ class Login extends Component {
     const { email, password } = this.state;
     axios
       .post(
-        "http://localhost:3001/sessions",
+        "/sessions",
         {
           user: {
             email: email,
